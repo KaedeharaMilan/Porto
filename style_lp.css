@@ -1,0 +1,521 @@
+/**
+* @license
+*
+* Font Family: Clash Display
+* Designed by: Indian Type Foundry
+* URL: https://www.fontshare.com/fonts/clash-display
+* © 2024 Indian Type Foundry
+*
+* Clash Display Extralight 
+* Clash Display Light 
+* Clash Display Regular 
+* Clash Display Medium 
+* Clash Display Semibold 
+* Clash Display Bold 
+* Clash Display Variable (Variable font)
+
+*
+*/
+@font-face {
+  font-family: 'ClashDisplay-Extralight';
+  src: url('../fonts/ClashDisplay-Extralight.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Extralight.woff') format('woff'),
+       url('../fonts/ClashDisplay-Extralight.ttf') format('truetype');
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Light';
+  src: url('../fonts/ClashDisplay-Light.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Light.woff') format('woff'),
+       url('../fonts/ClashDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Regular';
+  src: url('../fonts/ClashDisplay-Regular.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Regular.woff') format('woff'),
+       url('../fonts/ClashDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Medium';
+  src: url('../fonts/ClashDisplay-Medium.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Medium.woff') format('woff'),
+       url('../fonts/ClashDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Semibold';
+  src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Semibold.woff') format('woff'),
+       url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Bold';
+  src: url('../fonts/ClashDisplay-Bold.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Bold.woff') format('woff'),
+       url('../fonts/ClashDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 700.0;
+*
+* available axes:
+'wght' (range from 200.0 to 700.0
+*/
+@font-face {
+  font-family: 'ClashDisplay-Variable';
+  src: url('../fonts/ClashDisplay-Variable.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Variable.woff') format('woff'),
+       url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans";
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #000;
+}
+
+header{
+
+    background-color: #F6E7CB;
+    top: 0;
+    left: 0 ;
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+
+
+}
+
+.navbar_home a {
+    position: relative;
+    font-size: 17px;
+    color: #333;  
+    font-family: "Clash Display";
+    font-weight: 600;
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+
+
+.mini-profile img{
+
+  width: 188;
+  height: 188;
+  display: flex;
+  justify-content: right;
+  
+
+}
+
+.mini-profile.logo img{
+  justify-content: right;
+
+}
+
+.mini-profile {
+  height: 920px;
+  max-width: 100%;
+  background: #FF8500;  
+}
+
+main .mini-profile .in-proud-of {
+  display: flex;
+  justify-content: center;
+  
+}
+
+main .mini-profile .in-proud-of p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "NewYork";
+  height: 50px;
+  width: 200px;
+  margin-top: 120px;
+  background: #F6E7CB;
+  border-style: none;
+  border-radius: 20px;
+  border-color: #333333;
+  z-index: 10;
+}
+
+
+
+main .mini-profile .card-desc-title h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+  width: 900px;
+  font-size: 90px;
+  font-weight: 600;
+  margin-top: -90;
+  margin-bottom: 10px;
+  font-family: "NewYork";
+  color: #333;
+}
+
+main .mini-profile .card-desc-title {
+  display: flex;
+  justify-content: center;
+  
+}
+
+main .about-me  {
+  background-color: black;
+  width: 100%;
+  height: 900;
+  margin-top: 100px;
+}
+
+main .about-me .about-me-title h1 {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font-family: "Plus Jakarta Sans";
+  
+}
+
+main .about-me .about-me-desc {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  
+  background: linear-gradient(135deg, rgba(255,255,255, 0 1) rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid #333333;
+  box-shadow: 0px 0px 10px #FFFFFF;
+
+  width: 470;
+  height: 300px;
+
+}
+
+main .about-me .about-me-desc h1 {
+  color: #FFFFFF;
+  padding-left: 20px;
+}
+
+main .about-me .about-me-desc h2 {
+  color: #333333;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 900;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+main .about-me  .about-me-desc p {
+  position: absolute;
+  color: #FFFFFF;
+  margin-top: 80px;
+  width: 240px;
+  justify-content: space-between;
+  margin-left: 210;
+  text-align: justify;
+}
+
+main .about-me .about-me-desc img {
+  justify-content: space-between;
+  float: left;
+  padding-top: 10px;
+  margin-left: 20px;
+  padding-right: 10;
+  box-shadow: 0px 5px 10px #333333;
+}
+
+main .about-me .about-contact h1{
+  color: #FFFFFF;
+  font-family: "Plus Jakarta Sans";
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+main .about-me .about-contact h2{
+  color: #FFFFFF;
+  margin-left: 20px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+main .about-me .about-contact {
+  margin-left: 100px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  background: linear-gradient(135deg, rgba(255,255,255, 0 1) rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid #333333;
+  box-shadow: 0px 0px 10px #FFFFFF;
+
+  width: 470;
+  height: 300px;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media ul li a i {
+  display: flex;
+}
+
+.social-media ul li a i p {
+  margin-left: 10px;
+}
+
+.social-media a{
+  color: white;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+
+.previewcon-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.previewcon-2 {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  
+}
+
+
+.container-skill {
+  position: relative;
+  max-width: 900px;
+  padding-bottom: 8vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(135deg, rgba(255,255,255, 0 1) rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid #333333;
+  box-shadow: 0px 0px 10px #FFFFFF;
+}
+
+.container-skill .title-mastery h1 {
+  color: #ffffff;
+}
+
+.container-skill .skill-box {
+  width: 80%;
+}
+
+.container-skill .skill-box .css {
+  width: 60%;
+}
+
+.container-skill .skill-box .uidesign {
+  width: 90%;
+}
+
+.container-skill .skill-title {
+  display: block;
+  font-size: 14;
+  font-weight: 600;
+  color: #333333;
+}
+
+.skill-box .skill-bar {
+  height: 8px;
+  width: 100%;
+  background: #D7D7D7;
+  border-radius: 6px;
+  margin-top: 6px;
+  margin-bottom: 2vh;
+}
+
+.skill-bar .skill-per {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 85%;
+  background: linear-gradient( to right, red, #FF8500);
+  border-radius: 6px;
+}
+
+.skill-per .tooltip {
+  position: absolute;
+  right: -14px;
+  top: -28;
+  size: 9px;
+  font-weight: 500;
+  color: #ffffff;
+  background: linear-gradient( to right, red, #FF8500);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+footer{
+  width: 100%;
+  position: flex;
+  margin-top: 75vh;
+  bottom: 0;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  color: #fff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col{
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+  flex-basis: 15%;
+}
+
+.logo{
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.col h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+form .far{
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+form input{
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+form button .fas{
+font-size: 16px;
+color: #ccc;
+}
+
+social-icon .fab{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.copyright{
+  text-align: center;
+}
+
+.underline{
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
